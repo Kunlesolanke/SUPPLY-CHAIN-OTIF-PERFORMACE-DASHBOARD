@@ -33,23 +33,23 @@ Average Delay = average number of days late, by warehouse and by transport mode
 
 4. Visualization — Designed a single-page dashboard with:
 
-KPI cards (Total Orders, OT%, IF%, OTIF%)
+ KPI cards (Total Orders, OT%, IF%, OTIF%)
 
-OTIF% by Region (bar chart)
+ OTIF% by Region (bar chart)
 
-IF% and OT% by Region (comparison bar chart)
+ IF% and OT% by Region (comparison bar chart)
 
-Combined trend of OTIF%, IF%, OT% by Region (line chart)
+ Combined trend of OTIF%, IF%, OT% by Region (line chart)
 
-Average delay by Warehouse Location
+ Average delay by Warehouse Location
 
-Average delay by Transport Mode (donut chart)
+ Average delay by Transport Mode (donut chart)
 
-Ordered Qty vs Delivered Qty (bar chart)
+ Ordered Qty vs Delivered Qty (bar chart)
 
-Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
+* Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
 
-Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+* Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
 
 ## dashboard interaction
 https://1drv.ms/u/c/B35DBD2D8A213BFB/IQBfOXBPA_1CSJeKv7zSQzg3AWWcfj25h4cFY9b64xHG0FU?e=ROtBnm
@@ -80,21 +80,20 @@ Its OTIF is 50%, meaning only half of the orders met the requirement.
 
 * The main thing the business should investigate
 
-The biggest problem doesn't seem to be only late deliveries. The bigger issue is that orders are not always being delivered completely.
+* The biggest problem doesn't seem to be only late deliveries. The bigger issue is that orders are not always being delivered completely.
 
-So the company should check:
+* So the company should check:
 
-Are products out of stock?
+  Are products out of stock?
 
-Are suppliers providing the correct quantities?
+  Are suppliers providing the correct quantities?
 
-Are warehouses picking the correct items?
+  Are warehouses picking the correct items?
 
-Which products are frequently missing?
+  Which products are frequently missing?
 
-Why is the West region performing poorly?
+  Why is the West region performing poorly?
 
-
-In one sentence to my  client:
+* In one sentence to my  client:
 
 "The dashboard shows that while most orders are arriving on time, many are not being delivered completely. The West and North regions need the most attention, while East and South are performing well. The business should focus on improving inventory and order fulfillment to increase the overall OTIF rate."
