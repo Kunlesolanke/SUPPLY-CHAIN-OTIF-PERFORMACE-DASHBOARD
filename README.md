@@ -6,10 +6,13 @@ https://drive.google.com/drive/mobile/folders/1aZmwnuDuCCF4nRbwwcQXRyQXhBvNlnIK?
 
 ## 🧩 Business Problem
 A distribution company operating out of a Bangalore warehouse was struggling to understand why customer complaints about late or incomplete deliveries kept rising, despite orders leaving the warehouse on schedule. Management had no unified view of:
-1.Which regions were consistently missing delivery targets
-2.Whether delays were caused by which transport mode (Ship, Truck, or Air) was used
-3.How On-Time (OT), In-Full (IF), and combined On-Time-In-Full (OTIF) rates compared across the business
-4.The gap between ordered quantity vs. delivered quantity per shipment.
+1. Which regions were consistently missing delivery targets
+
+2. Whether delays were caused by which transport mode (Ship, Truck, or Air) was used
+
+3. How On-Time (OT), In-Full (IF), and combined On-Time-In-Full (OTIF) rates compared across the business
+
+4. The gap between ordered quantity vs. delivered quantity per shipment.
 
 Without this visibility, the business couldn't pinpoint whether the issue was a specific region, a specific carrier, or a warehouse-level bottleneck making it impossible to fix efficiently.
 
@@ -52,14 +55,53 @@ Customization:  Adapted the layout and metric selection from the original tutori
 
  
 ## Key Insights
-West region has a 0% OTIF rate ,every order from this region missed either the delivery date, the full quantity, or both. This is the single biggest fulfillment risk in the data.
 
-East and South regions perform near 100% OTIF, showing the fulfillment process works well when regional logistics are efficient  the problem is localized, not company-wide.
+1. The company has 15 orders.
 
-North sits at ~50% OTIF, a mid-tier risk zone worth monitoring before it slips further.
 
-Air freight has the lowest average delay (0.75 days), while Ship has the highest (1.11 days)  transport mode is a measurable driver of lateness.
+2. 73.33% of the orders arrived on time.
+This is good, but it means about 27% of the orders were late.
 
-IF% (53.33%) is notably lower than OT% (73.33%), meaning incomplete shipments (not just late ones) are the bigger contributor to poor OTIF a stock/inventory availability issue as much as a logistics one.
 
-The Bangalore warehouse averages 1 full day of delay across all shipments.
+3. Only 53.33% of orders were delivered completely.
+This is the biggest concern. It means many customers received their orders, but some items or quantities were missing.
+
+
+4. Overall OTIF is 66.67%.
+OTIF means the order was delivered on time AND with the complete quantity.
+So, only about 2 out of every 3 orders met both requirements.
+
+
+5. The West region is performing the worst.
+Its OTIF is 0%, meaning none of the orders there met both the on-time and complete-delivery requirements.
+
+
+6. The North region also needs improvement.
+Its OTIF is 50%, meaning only half of the orders met the requirement.
+
+
+7. East and South are performing better.
+Both have 100% OTIF, so they are currently the best-performing regions.
+
+
+
+The main thing the business should investigate
+
+The biggest problem doesn't seem to be only late deliveries. The bigger issue is that orders are not always being delivered completely.
+
+So the company should check:
+
+Are products out of stock?
+
+Are suppliers providing the correct quantities?
+
+Are warehouses picking the correct items?
+
+Which products are frequently missing?
+
+Why is the West region performing poorly?
+
+
+In one sentence to my  client:
+
+"The dashboard shows that while most orders are arriving on time, many are not being delivered completely. The West and North regions need the most attention, while East and South are performing well. The business should focus on improving inventory and order fulfillment to increase the overall OTIF rate."
