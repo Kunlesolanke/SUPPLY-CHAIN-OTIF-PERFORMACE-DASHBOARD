@@ -23,33 +23,33 @@ Without this visibility, the business couldn't pinpoint whether the issue was a 
 
 3. DAX measures  Created core KPIs:
 
-OT %  = % of orders delivered on or before the promised date
+* OT %  = % of orders delivered on or before the promised date
 
-IF % = % of orders delivered with the full ordered quantity
+* IF % = % of orders delivered with the full ordered quantity
 
-OTIF % = % of orders that were both on-time and in-full
+* OTIF % = % of orders that were both on-time and in-full
 
-Average Delay = average number of days late, by warehouse and by transport mode
+* Average Delay = average number of days late, by warehouse and by transport mode
 
 4. Visualization — Designed a single-page dashboard with:
 
- KPI cards (Total Orders, OT%, IF%, OTIF%)
+* KPI cards (Total Orders, OT%, IF%, OTIF%)
 
- OTIF% by Region (bar chart)
+*  OTIF% by Region (bar chart)
 
- IF% and OT% by Region (comparison bar chart)
+* IF% and OT% by Region (comparison bar chart)
 
- Combined trend of OTIF%, IF%, OT% by Region (line chart)
+* Combined trend of OTIF%, IF%, OT% by Region (line chart)
 
- Average delay by Warehouse Location
+* Average delay by Warehouse Location
 
- Average delay by Transport Mode (donut chart)
+* Average delay by Transport Mode (donut chart)
 
- Ordered Qty vs Delivered Qty (bar chart)
+* Ordered Qty vs Delivered Qty (bar chart)
 
-* Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
+5. Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
 
-* Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+6. Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
 
 ## dashboard interaction
 https://1drv.ms/u/c/B35DBD2D8A213BFB/IQBfOXBPA_1CSJeKv7zSQzg3AWWcfj25h4cFY9b64xHG0FU?e=ROtBnm
