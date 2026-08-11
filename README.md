@@ -20,17 +20,43 @@ Without this visibility, the business couldn't pinpoint whether the issue was a 
 
 3.DAX measures  Created core KPIs:
 
-.OT %  = % of orders delivered on or before the promised date
-.IF % = % of orders delivered with the full ordered quantity
-.OTIF % = % of orders that were both on-time and in-full
-.Average Delay = average number of days late, by warehouse and by transport mode
-.Visualization — Designed a single-page dashboard with:
-.KPI cards (Total Orders, OT%, IF%, OTIF%)
-.OTIF% by Region (bar chart)
-.IF% and OT% by Region (comparison bar chart)
-.Combined trend of OTIF%, IF%, OT% by Region (line chart)
-13.Average delay by Warehouse Location
-14.Average delay by Transport Mode (donut chart)
-15.Ordered Qty vs Delivered Qty (bar chart)
-Interactivity — Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
-Customization — Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+OT %  = % of orders delivered on or before the promised date
+
+IF % = % of orders delivered with the full ordered quantity
+
+OTIF % = % of orders that were both on-time and in-full
+
+Average Delay = average number of days late, by warehouse and by transport mode
+
+4.Visualization — Designed a single-page dashboard with:
+
+KPI cards (Total Orders, OT%, IF%, OTIF%)
+
+OTIF% by Region (bar chart)
+
+IF% and OT% by Region (comparison bar chart)
+
+Combined trend of OTIF%, IF%, OT% by Region (line chart)
+
+Average delay by Warehouse Location
+
+Average delay by Transport Mode (donut chart)
+
+Ordered Qty vs Delivered Qty (bar chart)
+
+Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
+
+Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+ 
+## Key Insights
+West region has a 0% OTIF rate ,every order from this region missed either the delivery date, the full quantity, or both. This is the single biggest fulfillment risk in the data.
+
+East and South regions perform near 100% OTIF, showing the fulfillment process works well when regional logistics are efficient  the problem is localized, not company-wide.
+
+North sits at ~50% OTIF, a mid-tier risk zone worth monitoring before it slips further.
+
+Air freight has the lowest average delay (0.75 days), while Ship has the highest (1.11 days)  transport mode is a measurable driver of lateness.
+
+IF% (53.33%) is notably lower than OT% (73.33%), meaning incomplete shipments (not just late ones) are the bigger contributor to poor OTIF a stock/inventory availability issue as much as a logistics one.
+
+The Bangalore warehouse averages 1 full day of delay across all shipments.
