@@ -47,6 +47,9 @@ Ordered Qty vs Delivered Qty (bar chart)
 Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
 
 Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+## dashboard 
+![Uploading DASH BOARD SCREENSHOT.png…]()
+
  
 ## Key Insights
 West region has a 0% OTIF rate ,every order from this region missed either the delivery date, the full quantity, or both. This is the single biggest fulfillment risk in the data.
