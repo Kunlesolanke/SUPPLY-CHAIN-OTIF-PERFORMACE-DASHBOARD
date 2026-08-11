@@ -2,4 +2,4 @@
 An interactive Power BI dashboard built to monitor order fulfillment performance across regions, warehouses, and transport modes with a focus on On-Time-In-Full (OTIF) delivery tracking.
 
 ## DATA SET USED
-drive.google.com/drive/folders/1aZmwnuDuCCF4nRbwwcQXRyQXhBvNlnIK
+https://drive.google.com/drive/mobile/folders/1aZmwnuDuCCF4nRbwwcQXRyQXhBvNlnIK?usp=sharing
