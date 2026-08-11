@@ -17,11 +17,11 @@ A distribution company operating out of a Bangalore warehouse was struggling to 
 Without this visibility, the business couldn't pinpoint whether the issue was a specific region, a specific carrier, or a warehouse-level bottleneck making it impossible to fix efficiently.
 
 ## 🛠️ Steps Taken
-1.Data preparation Cleaned and structured raw order-level data (order dates, promised delivery dates, actual delivery dates, ordered qty, delivered qty, region, warehouse, transport mode) in Power Query.
+1. Data preparation Cleaned and structured raw order-level data (order dates, promised delivery dates, actual delivery dates, ordered qty, delivered qty, region, warehouse, transport mode) in Power Query.
 
-2.Data modeling : Built relationships between orders, region, and transport mode tables to support cross-filtering.
+2. Data modeling : Built relationships between orders, region, and transport mode tables to support cross-filtering.
 
-3.DAX measures  Created core KPIs:
+3. DAX measures  Created core KPIs:
 
 OT %  = % of orders delivered on or before the promised date
 
@@ -31,7 +31,7 @@ OTIF % = % of orders that were both on-time and in-full
 
 Average Delay = average number of days late, by warehouse and by transport mode
 
-4.Visualization — Designed a single-page dashboard with:
+4. Visualization — Designed a single-page dashboard with:
 
 KPI cards (Total Orders, OT%, IF%, OTIF%)
 
@@ -50,42 +50,35 @@ Ordered Qty vs Delivered Qty (bar chart)
 Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
 
 Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
-## dashboard 
-![Uploading DASH BOARD SCREENSHOT.png…]()
+
+## dashboard interaction
+https://1drv.ms/u/c/B35DBD2D8A213BFB/IQBfOXBPA_1CSJeKv7zSQzg3AWWcfj25h4cFY9b64xHG0FU?e=ROtBnm
 
  
 ## Key Insights
 
 1. The company has 15 orders.
 
-
 2. 73.33% of the orders arrived on time.
-This is good, but it means about 27% of the orders were late.
-
 
 3. Only 53.33% of orders were delivered completely.
 This is the biggest concern. It means many customers received their orders, but some items or quantities were missing.
-
 
 4. Overall OTIF is 66.67%.
 OTIF means the order was delivered on time AND with the complete quantity.
 So, only about 2 out of every 3 orders met both requirements.
 
-
 5. The West region is performing the worst.
 Its OTIF is 0%, meaning none of the orders there met both the on-time and complete-delivery requirements.
-
 
 6. The North region also needs improvement.
 Its OTIF is 50%, meaning only half of the orders met the requirement.
 
-
 7. East and South are performing better.
-Both have 100% OTIF, so they are currently the best-performing regions.
+  
+8. Both have 100% OTIF, so they are currently the best-performing regions.
 
-
-
-The main thing the business should investigate
+* The main thing the business should investigate
 
 The biggest problem doesn't seem to be only late deliveries. The bigger issue is that orders are not always being delivered completely.
 
