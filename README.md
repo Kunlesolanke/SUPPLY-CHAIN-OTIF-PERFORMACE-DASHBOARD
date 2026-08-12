@@ -103,3 +103,6 @@ Its OTIF is 50%, meaning only half of the orders met the requirement.
 
 ## DASHBOARD IMAGE 
 <img width="1920" height="1080" alt="DASH BOARD SCREENSHOT" src="https://github.com/user-attachments/assets/66b49793-b66e-4e4a-98ad-cc97d82ede8a" />
+
+## RECOMMENDATIONS
+The company should prioritize improving order completeness and investigate the poor performance in the West and North regions. Improving inventory management, supplier performance, and warehouse processes should help increase the overall OTIF rate from 66.67% to a higher level.
