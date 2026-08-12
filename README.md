@@ -99,3 +99,4 @@ Its OTIF is 50%, meaning only half of the orders met the requirement.
 "The dashboard shows that while most orders are arriving on time, many are not being delivered completely. The West and North regions need the most attention, while East and South are performing well. The business should focus on improving inventory and order fulfillment to increase the overall OTIF rate."
 
 ## DASHBOARD IMAGE 
+<img width="1920" height="1080" alt="DASH BOARD SCREENSHOT" src="https://github.com/user-attachments/assets/66b49793-b66e-4e4a-98ad-cc97d82ede8a" />
