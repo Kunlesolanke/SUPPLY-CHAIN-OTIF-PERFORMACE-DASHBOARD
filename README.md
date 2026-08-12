@@ -17,7 +17,7 @@ A distribution company operating out of a Bangalore warehouse was struggling to 
 Without this visibility, the business couldn't pinpoint whether the issue was a specific region, a specific carrier, or a warehouse-level bottleneck making it impossible to fix efficiently.
 
 ## 🛠️ Steps Taken
-1. Data preparation Cleaned and structured raw order-level data (order dates, promised delivery dates, actual delivery dates, ordered qty, delivered qty, region, warehouse, transport mode) in Power Query.
+1. Data preparation: I Cleaned and structured raw order-level data (order dates, promised delivery dates, actual delivery dates, ordered qty, delivered qty, region, warehouse, transport mode) in Power Query.
 
 2. Data modeling : Built relationships between orders, region, and transport mode tables to support cross-filtering.
 
@@ -50,6 +50,9 @@ Without this visibility, the business couldn't pinpoint whether the issue was a 
 5. Interactivity : Added slicers for Warehouse Location, Transport Mode, Region, and Month/Year so stakeholders can drill into any segment.
 
 6. Customization:  Adapted the layout and metric selection from the original tutorial reference to better fit a warehouse-level OTIF reporting use case, including the added Average Delay by Transport Mode breakdown.
+
+## LINK TO FULL PROJECT 
+https://1drv.ms/b/c/B35DBD2D8A213BFB/IQC_m1BLPUFWQYIs9XRtQA3IAQCL3xh6u2IPRafB9CsqijM?e=4UwQhk
 
 ## dashboard interaction
 https://1drv.ms/u/c/B35DBD2D8A213BFB/IQBfOXBPA_1CSJeKv7zSQzg3AWWcfj25h4cFY9b64xHG0FU?e=ROtBnm
